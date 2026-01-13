@@ -1,7 +1,7 @@
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { FontAwesome, Ionicons } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
 import { FACEBOOKLOGO, GOOGLELOGO } from "@/constants";
 import { useRouter } from "expo-router";
 export default function Index() {
