@@ -28,12 +28,14 @@ export default function Index() {
             <View style={styles.companyLogo}>
               <Image source={require("@/assets/images/Logo.png")} />
             </View>
+            <View className="flex-1 items-center justify-center bg-white">
+              <Text className="text-xl font-bold text-blue-500">
+                Welcome to Nativewind!
+              </Text>
+            </View>
             <View style={styles.textGroup}>
               <Text style={styles.textLarge}>
                 Find your favorite place here
-              </Text>
-              <Text className="text-xl font-bold text-blue-500">
-                Welcome to Nativewind!
               </Text>
               <Text style={styles.textSmall}>The best prices for over 2 </Text>
               <Text style={styles.textSmall}>million properties worldwide</Text>

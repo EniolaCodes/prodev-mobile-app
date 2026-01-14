@@ -3,7 +3,7 @@ import PropertyListingCard from "./common/PropertyListingCard";
 import { useState } from "react";
 import { PropertyListing, PropertyListingProps } from "../interfaces";
 
-const PropertListing = ({ listings }: PropertyListing) => {
+const PropertyListing = ({ listings }: PropertyListing) => {
   return (
     <View
       style={{
@@ -18,4 +18,4 @@ const PropertListing = ({ listings }: PropertyListing) => {
   );
 };
 
-export default PropertListing;
+export default PropertyListing;
