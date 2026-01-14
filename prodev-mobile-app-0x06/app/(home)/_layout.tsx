@@ -6,12 +6,14 @@ import {
   Ionicons,
 } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
+import "@/styles/global.css";
 
 const HomeRootLayout = () => {
   return (
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "#34967C",
+        headerShown: false, // This remains the default for all tabs
       }}
     >
       <Tabs.Screen
@@ -27,7 +29,7 @@ const HomeRootLayout = () => {
         name="search"
         options={{
           title: "Search",
-
+          headerShown: true,
           tabBarIcon: ({ color }) => (
             <Feather name="search" size={24} color={color} />
           ),
@@ -37,7 +39,7 @@ const HomeRootLayout = () => {
         name="saved"
         options={{
           title: "Saved",
-
+          headerShown: true,
           tabBarIcon: ({ color }) => (
             <EvilIcons name="heart" size={27} color={color} />
           ),
@@ -47,7 +49,7 @@ const HomeRootLayout = () => {
         name="inbox"
         options={{
           title: "Inbox",
-
+          headerShown: true,
           tabBarIcon: ({ color }) => (
             <Ionicons name="chatbubbles-outline" size={24} color={color} />
           ),
@@ -57,9 +59,9 @@ const HomeRootLayout = () => {
         name="profile"
         options={{
           title: "Profile",
-
+          // headerShown: true removed here
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="user-o" size={24} color="black" />
+            <FontAwesome name="user-o" size={24} color={color} />
           ),
         }}
       />
