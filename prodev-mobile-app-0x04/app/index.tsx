@@ -25,7 +25,7 @@ export default function Index() {
         <SafeAreaView style={{ flex: 1 }}>
           <View style={styles.container}>
             <View style={styles.companyLogo}>
-              <Image source={require("@/assets/images/Logo.png")} />
+              <Image source={require("@/assets/images/logo.png")} />
             </View>
             <View style={styles.textGroup}>
               <Text style={styles.textLarge}>
