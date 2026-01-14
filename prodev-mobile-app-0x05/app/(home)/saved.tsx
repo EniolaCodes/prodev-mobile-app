@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-const Saved = () => {
+const Profile = () => {
   return (
     <View>
       <Text>Saved Screen</Text>
@@ -8,4 +8,4 @@ const Saved = () => {
   );
 };
 
-export default Saved;
+export default Profile;

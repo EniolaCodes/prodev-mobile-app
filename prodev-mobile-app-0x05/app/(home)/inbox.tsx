@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-const Inbox = () => {
+const Profile = () => {
   return (
     <View>
       <Text>Inbox Screen</Text>
@@ -8,4 +8,4 @@ const Inbox = () => {
   );
 };
 
-export default Inbox;
+export default Profile;
